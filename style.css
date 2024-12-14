@@ -1,0 +1,99 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+}
+
+/*Nav bar*/
+
+#nav-nor{
+    background-color: black;
+}
+
+.nav-container{
+    display: flex;
+    position: relative;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.logo{
+    position: absolute;
+    left: 0;
+    margin: 0 25px;
+}
+
+.nav-links{
+    position: absolute;
+    right: 0;
+    margin: 0 15px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+}
+
+.nav-links ul{
+    list-style-type: none;
+}
+
+.nav-links li{
+    display: inline;
+}
+
+::placeholder {
+    padding: 10px;
+    color: rgb(183, 182, 182);
+    }
+
+.inp{
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-size: 14px; 
+    font-weight: bold;
+    border: 1px solid #353535;  
+    box-shadow: 2px 2px 5px rgb(30, 29, 29);
+}
+
+.inp:hover { 
+    border-color: #ececec; 
+    box-shadow: 5px 5px 15px rgba(41, 42, 43, 0.5);
+    transition: 0.4s ease-in-out;
+}
+
+.inp:focus{
+    border-color: #ececec; 
+    box-shadow: 5px 5px 15px rgba(41, 42, 43, 0.5);
+}
+
+.inp{
+    color: white;
+    padding: 10px;
+}
+
+.nav-links a:hover{
+    text-decoration: underline;
+    padding: 0 5px 0 0;
+    font-weight: 410;
+    text-underline-offset: 5px;
+    color: rgb(136, 193, 250);
+}
+
+.inp-btn{
+    width: 50px;
+    height: 27px;
+    border-radius: 10px;
+    border: 2px solid #353535;
+    box-shadow:  2px 2px 5px rgb(30, 29, 29);
+    background-color: black;
+    color: white;
+}
