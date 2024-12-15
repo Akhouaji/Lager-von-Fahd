@@ -1,0 +1,23 @@
+@media (max-width: 900px){
+    #nav-nor{
+        display: none;
+    }
+    #ham-nav{
+        display: flex;
+    }
+    .home-container { 
+        grid-template-columns: 1fr
+    } 
+        .pic, .descr, .search-btnn { grid-column: 1;
+        padding: 20px;
+        text-align: center;
+    } 
+    .descr { 
+        margin: 10px 0;
+        width: 350px;
+    }
+
+    .search-btnn{
+        height: 20px;
+    }
+}
