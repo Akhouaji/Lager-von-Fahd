@@ -5,19 +5,17 @@
     #ham-nav{
         display: flex;
     }
-    .home-container { 
-        grid-template-columns: 1fr
-    } 
-        .pic, .descr, .search-btnn { grid-column: 1;
-        padding: 20px;
-        text-align: center;
-    } 
-    .descr { 
-        margin: 10px 0;
-        width: 350px;
+    .home-grid{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        justify-content: space-between;
+    }
+    .fdescr{
+        gap: 0;
     }
 
-    .search-btnn{
-        height: 20px;
+    .such-link{
+        margin-bottom: 25px;
     }
 }
