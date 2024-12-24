@@ -31,3 +31,13 @@ searchInp.addEventListener('blur', () => {
     }
 });
 
+
+
+const background = document.getElementById('proje');
+        let x = 0;
+        function animate() {
+            x -= 0.09;
+            background.style.backgroundPosition = `${x}px 0`;
+            requestAnimationFrame(animate);
+        }
+        animate();
